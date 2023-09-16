@@ -1,0 +1,71 @@
+/* Reset CSS para eliminar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global del cuerpo de la página */
+  body {
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilo del contenedor principal */
+  .container {
+    background-color: aliceblue;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+  }
+  
+  /* Estilo del título principal */
+  h1 {
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  /* Estilo del resultado */
+  #resultado {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Estilo del área de gráficos */
+  .grafica {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo del título de la gráfica */
+  .grafica h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo del elemento de gráficos */
+  #myChart {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
